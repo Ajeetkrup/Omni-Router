@@ -17,7 +17,7 @@ graph TD
     Client[Client Request] --> FastAPI[FastAPI Gateway \n/v1/chat/completions]
     FastAPI --> Router[Semantic Router]
     
-    subgraph Semantic Layer
+    subgraph Semantic_Layer ["Semantic Layer"]
         Router --> Embedding[Local ONNX Embedding Model \n+ NumPy Pooling]
         Embedding --> FAISS[(FAISS Vector Index)]
     end
@@ -27,7 +27,7 @@ graph TD
     
     FAISS -- "Miss" --> ComplexityLogic{Complexity Analysis}
     
-    subgraph Fallback LLMs (via Groq & LiteLLM)
+    subgraph Fallback_LLMs ["Fallback LLMs (via Groq & LiteLLM)"]
         ComplexityLogic -- "Simple Task" --> Llama3[Llama-3-8B]
         ComplexityLogic -- "Complex Task \n(>300 chars or keywords)" --> Qwen3[Qwen-3-32B]
     end
