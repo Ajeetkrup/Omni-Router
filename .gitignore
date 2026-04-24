@@ -30,3 +30,17 @@ Thumbs.db
 # Logs
 logs/
 *.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# MLflow
+mlruns/
+mlflow.db
+mlflow.db-*
+
+# Evaluation / local telemetry
+.deepeval/
+
+# Local runtime test artifacts
+test_redis.py

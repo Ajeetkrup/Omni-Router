@@ -10,6 +10,11 @@ from optimum.onnxruntime import ORTModelForFeatureExtraction
 import onnxruntime as ort
 import redis
 import time
+from nltk.stem import WordNetLemmatizer
+from nltk.tokenize import word_tokenize
+from nltk.corpus import stopwords
+import joblib
+import string
 
 class SemanticRouter:
     def __init__(self, model_path="onnx_output", similarity_threshold=0.95):
@@ -66,6 +71,12 @@ class SemanticRouter:
             url = os.getenv("REDIS_URI"),
             decode_responses=False,  
         )
+
+        self.stop_words = set(stopwords.words('english'))
+        self.lemmatizer = WordNetLemmatizer()
+
+        self.trained_model = joblib.load("trained_model/intent_classification_model.pkl")
+        self.label_encoder = joblib.load("trained_model/intent_label_encoder.pkl")
     
     def _get_embedding(self, text: str) -> np.ndarray:
         """
@@ -126,6 +137,51 @@ class SemanticRouter:
         except Exception as e:
             print(f"Failed to add to cache: {e}")
 
+    def clean_text(self, text):
+        if not isinstance(text, str):
+            return ""
+
+        # Lowercase the text
+        text = text.lower()
+
+        # Remove punctuation
+        text = text.translate(str.maketrans('', '', string.punctuation))
+
+        # Tokenize (split into words)
+        tokens = word_tokenize(text)
+
+        # Remove stopwords and Lemmatize
+        processed_tokens = [
+            self.lemmatizer.lemmatize(word) for word in tokens if word not in self.stop_words
+        ]
+
+        # Join the words back into a single string
+        return " ".join(processed_tokens)
+
+    def predict_intents_sklearn(self, new_texts):
+        """
+        Predicts the intent of new sentences using a Scikit-Learn model.
+        """
+        # 1. Preprocess the text (Use the same function from your training script!)
+        cleaned_text = self.clean_text(new_texts)
+        
+        # 2. Generate Embeddings
+        print("Generating embeddings for new text...")
+        embeddings = self._get_embedding(cleaned_text)
+        
+        # 3. Make Predictions
+        numerical_predictions = self.trained_model.predict(embeddings)
+        
+        # 4. Decode predictions back to original strings ("simple" or "complex")
+        string_labels = self.label_encoder.inverse_transform(numerical_predictions)
+        
+        # Print results nicely
+        print("\n--- Prediction Results ---", new_texts, string_labels)
+        # for original_text, label in zip(new_texts, string_labels):
+        #     print(f"[{label.upper()}] : {original_text}")
+            
+        return string_labels[0]
+
     def route_request(self, prompt: str) -> tuple[str, str, str]:
         """
         The main gateway logic for routing requests.
@@ -159,10 +215,9 @@ class SemanticRouter:
 
             # --- STEP 2: MODEL ROUTING (Fallback Logic) ---
             # You can use simple heuristics, keyword matching, or a secondary fast classifier here.
-            complex_keywords = ["analyze", "synthesize", "evaluate", "architect", "code"]
-            is_complex = any(keyword in prompt.lower() for keyword in complex_keywords)
+            intents = self.predict_intents_sklearn(prompt)
 
-            if is_complex or len(prompt) > 300:
+            if intents == "complex":
                 start_time = time.time()
                 response = self._call_qwen3_groq(prompt)
                 latency_ms = round((time.time() - start_time) * 1000, 2)

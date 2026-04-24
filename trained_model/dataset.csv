@@ -1,0 +1,201 @@
+text,label
+"Hey, how are you doing today?",simple
+What does API stand for?,simple
+Fix the typo in this sentence: 'She dont like apples.',simple
+Translate 'Good morning' into French.,simple
+"Convert this list to a Python list: Red, Green, Blue.",simple
+What year was Python first released?,simple
+What is the keyboard shortcut to undo in most applications?,simple
+What does HTML stand for?,simple
+Give me a one-line code comment explaining what a for loop does.,simple
+What is the difference between a list and a tuple in Python?,simple
+Write a simple bash command to list all files in a directory.,simple
+Rename this variable from 'x' to 'total_count' in this line: x = 10,simple
+What does the 'git status' command do?,simple
+Generate a basic README template for a GitHub project.,simple
+What is a REST API?,simple
+Translate this Python print statement to JavaScript: print('Hello World'),simple
+What is the purpose of a .gitignore file?,simple
+Draft a short professional email thanking a client for their meeting.,simple
+What does B2B stand for?,simple
+Write a one-sentence product tagline for a coffee brand.,simple
+Create a 5-bullet to-do list for preparing a job interview.,simple
+What is a SWOT analysis?,simple
+Write a subject line for a follow-up email after a sales call.,simple
+"Convert this data into a simple two-column table: Name: Alice, Age: 30; Name: Bob, Age: 25.",simple
+What is the difference between gross revenue and net revenue?,simple
+Write a brief out-of-office auto-reply message.,simple
+Summarize this sentence in simpler words: 'We endeavor to synergize cross-functional paradigms.',simple
+List 5 synonyms for the word 'innovative'.,simple
+What is the purpose of a press release?,simple
+Write a short caption for a LinkedIn post about hitting a sales target.,simple
+What does ROI stand for?,simple
+"Format this raw data into a bullet-point summary: Sales Q1: 12000, Q2: 15000, Q3: 9000.",simple
+Write a polite email declining a vendor's proposal.,simple
+What is the standard structure of a business memo?,simple
+Explain what a noun is.,simple
+What is the capital of Japan?,simple
+Translate 'I would like a glass of water' into Italian.,simple
+What is 15% of 200?,simple
+"Summarize this paragraph in one sentence: 'The water cycle describes how water evaporates from the surface of the earth, rises into the atmosphere, cools and condenses into rain or snow, and falls back to the surface as precipitation.'",simple
+What is the past tense of 'run'?,simple
+What does the word 'photosynthesis' mean?,simple
+List three examples of renewable energy sources.,simple
+What is the difference between a simile and a metaphor?,simple
+Give me 5 vocabulary words related to the ocean.,simple
+Explain what a fraction is as if I'm in grade school.,simple
+What is the quadratic formula?,simple
+Translate this sentence to German: 'The train arrives at 9 AM.',simple
+What is the main theme of Shakespeare's Romeo and Juliet?,simple
+"Format this reference in APA style: Author: John Smith, Year: 2020, Title: AI Trends, Journal: Tech Review, Volume 5, Pages 12-25.",simple
+What is Newton's first law of motion?,simple
+Define the term 'opportunity cost' in economics.,simple
+Give me a fun rhyming word that goes with 'cat'.,simple
+"Suggest a short, catchy name for a travel podcast.",simple
+Write a one-sentence story about a dragon who loves pizza.,simple
+List 5 possible names for a bakery.,simple
+Write a short haiku about the ocean.,simple
+Suggest a fun birthday party theme for a 7-year-old.,simple
+Give me a quirky tagline for a bookstore.,simple
+Write a two-line joke about a programmer.,simple
+What's a good name for a fictional wizard character?,simple
+List 3 creative plot twists for a detective story.,simple
+Write a short poem (4 lines) about autumn.,simple
+Give me 5 creative team names for a pub quiz night.,simple
+Suggest a fun opening line for a fantasy novel.,simple
+List 5 unique names for a sci-fi spaceship.,simple
+Write a silly limerick about a cat who hates Mondays.,simple
+What are three possible titles for a thriller novel set in Paris?,simple
+Suggest a funny bio for a fictional social media influencer who is a sloth.,simple
+What's a good snack to make with peanut butter and bread?,simple
+Suggest a quick 10-minute morning stretch routine.,simple
+What fruits go well together in a smoothie?,simple
+"Give me a simple recipe using chicken, rice, and broccoli.",simple
+What should I pack for a 3-day beach trip?,simple
+Give me a one-week beginner workout plan.,simple
+What time zone is New York in?,simple
+Suggest a relaxing evening routine for better sleep.,simple
+List 5 healthy breakfast options that take under 5 minutes.,simple
+What's the best way to store leftover pasta?,simple
+Give me a simple grocery list for a week of vegetarian meals.,simple
+Suggest a good book genre for someone who likes mystery and history.,simple
+What are some easy ways to drink more water throughout the day?,simple
+What's a good gift for someone who loves cooking?,simple
+Give me a 30-minute beginner running plan.,simple
+Suggest 3 low-budget date night ideas.,simple
+What vegetables can I roast together in the oven?,simple
+What is your return policy?,simple
+How do I reset my password?,simple
+Write a one-sentence apology response to a customer who received the wrong item.,simple
+What does 'processing' mean in terms of an order status?,simple
+Draft a brief thank-you message to a customer who left a 5-star review.,simple
+"A customer asked: 'Do you ship internationally?' — write a short, friendly reply saying yes.",simple
+Write a polite response to a customer asking for store hours.,simple
+What is a common FAQ question for an e-commerce site?,simple
+Draft a 1-sentence message confirming a customer's refund has been processed.,simple
+A customer says 'I can't log in.' Write a single-step troubleshooting reply.,simple
+Write a short holding response to a customer while their issue is being reviewed.,simple
+Draft a friendly message informing a customer their order has shipped.,simple
+What's a polite way to tell a customer a product is out of stock?,simple
+Write a one-line reply to a customer who asked if gift wrapping is available.,simple
+Draft a short response to a 1-star review where the customer complained about slow shipping.,simple
+"Design a microservices architecture for a real-time ride-sharing platform, covering service discovery, load balancing, inter-service communication protocols, and fault tolerance strategies.",complex
+Refactor this O(n³) matrix multiplication algorithm in Python to use NumPy broadcasting and analyze the time and space complexity improvements.,complex
+"Design a CI/CD pipeline for a monorepo containing 5 microservices using GitHub Actions, including parallel test execution, Docker layer caching, and staged canary deployments.",complex
+"Architect a distributed event sourcing system using Kafka for an e-commerce platform, detailing the command/query responsibility segregation (CQRS) pattern and eventual consistency guarantees.",complex
+"Write a Python metaclass that automatically instruments all methods in a class with logging, retry logic with exponential backoff, and execution time tracking.",complex
+"Design a globally sharded PostgreSQL database schema for a multi-tenant SaaS application with row-level security, tenant isolation, and cross-shard query federation.",complex
+"Build a Kubernetes custom operator in Go that manages the lifecycle of a stateful application, including leader election, graceful rolling upgrades, and automatic backups.",complex
+"Implement a real-time anomaly detection pipeline using Apache Flink that processes 1 million events per second, applies sliding window aggregations, and routes alerts to PagerDuty.",complex
+"Write a compiler pass in LLVM that performs dead code elimination and constant folding on an intermediate representation, with detailed explanation of the data flow analysis.",complex
+"Design a zero-trust security architecture for a hybrid cloud environment, covering identity federation, micro-segmentation, mutual TLS between services, and secrets management.",complex
+"Architect a WebRTC-based video conferencing system that supports 500 concurrent participants with SFU media routing, adaptive bitrate streaming, and sub-200ms latency.",complex
+Implement a distributed rate limiter using Redis Lua scripts that enforces per-user and per-IP limits across 50 geographically distributed API gateway nodes.,complex
+"Write a PySpark job that reads 2TB of raw clickstream data from S3, performs sessionization, computes funnel conversion rates by cohort, and outputs partitioned Parquet files.",complex
+"Design a blue-green deployment strategy for a stateful application on AWS ECS, including database migration rollback procedures and traffic splitting via weighted Route 53 records.",complex
+Build a recommendation engine using collaborative filtering and matrix factorization that handles cold-start problems for new users in a music streaming app.,complex
+"Implement a custom distributed tracing solution from scratch that propagates context across HTTP, gRPC, and message queue boundaries without using OpenTelemetry.",complex
+"Architect a multi-region active-active database setup using CockroachDB, detailing conflict resolution, clock skew handling, and geo-partitioned table design.",complex
+"Develop a comprehensive go-to-market strategy for launching a B2B SaaS product in the European market, including competitive positioning, pricing tiers, channel partnerships, and a 12-month revenue forecast model.",complex
+"Analyze the structural drivers and lagging indicators of a potential economic recession, and design a hedging strategy for a mid-sized manufacturing company with $50M in annual revenue.",complex
+"Design an end-to-end data analytics pipeline that ingests unstructured customer support tickets, uses NLP to extract sentiment and topic clusters, and generates executive KPI dashboards.",complex
+"Build a dynamic pricing model for an airline that balances seat revenue maximization with load factor constraints, using price elasticity data and competitive fare benchmarks.",complex
+"Develop a mergers and acquisitions due diligence checklist for a tech startup acquisition, covering IP ownership, technical debt assessment, key-person dependencies, and regulatory compliance.",complex
+"Create a full content marketing strategy for a fintech brand, including SEO keyword mapping, editorial calendar, backlink acquisition tactics, and conversion funnel optimization for 6 months.",complex
+"Design an OKR framework for a 200-person organization undergoing digital transformation, including cascading objectives from executive to individual contributor level and measurement cadences.",complex
+"Build a churn prediction model using gradient boosting on customer behavioral data, define the feature engineering pipeline, and propose proactive retention interventions based on risk tiers.",complex
+"Develop a crisis communication plan for a SaaS company that has suffered a data breach exposing 500,000 user records, including stakeholder messaging, regulatory notification timelines, and PR strategy.",complex
+Analyze supply chain risks for a consumer electronics company with single-source suppliers in Southeast Asia and propose a multi-sourcing strategy with risk-weighted cost-benefit analysis.,complex
+"Design a zero-based budgeting process for a department of 40 people transitioning from activity-based costing, including change management tactics and variance reporting cadence.",complex
+"Build a customer lifetime value (CLTV) segmentation model using RFM analysis and cohort retention curves, and map each segment to a differentiated CRM engagement strategy.",complex
+"Create a comprehensive influencer marketing strategy for a sustainable fashion brand, including micro vs. macro influencer mix, attribution modeling, and brand safety guardrails.",complex
+"Develop a multi-scenario financial model in Excel for a Series B SaaS startup, with base, bull, and bear cases, sensitivity analysis on CAC and churn, and investor-ready waterfall charts.",complex
+"Design a product-led growth (PLG) motion for a developer tools company, detailing the freemium conversion funnel, in-app activation milestones, and virality loops.",complex
+"Build a demand forecasting model for a retail chain with 200 SKUs, incorporating seasonality, promotional lift, and stockout penalties using a hierarchical time series approach.",complex
+"Develop a full P&L impact analysis for outsourcing the customer support function of a 500-employee company, including transition costs, quality risk, and 3-year NPV comparison.",complex
+"Develop a multi-layered curriculum for teaching advanced quantum mechanics to undergraduate students with no prior physics background, including prerequisite scaffolding, conceptual analogies, lab simulation design, and formative assessment strategies.",complex
+"Analyze the socioeconomic causes and long-term consequences of hyperinflation using Zimbabwe and Weimar Germany as case studies, and propose modern monetary policy interventions.",complex
+"Design a longitudinal research study to measure the cognitive impact of bilingual education on executive function in children aged 5–12, including control group design, confound mitigation, and statistical analysis plan.",complex
+"Write a comprehensive comparative essay on the philosophical differences between utilitarianism and deontological ethics, applying each framework to a modern trolley problem scenario involving autonomous vehicles.",complex
+"Create a graduate-level explainer on transformer neural network architectures, covering attention mechanisms, positional encoding, multi-head attention math, and how scaling laws affect emergent capabilities.",complex
+Design a personalized adaptive learning system for a university platform that uses item response theory (IRT) to dynamically adjust quiz difficulty and surface knowledge gaps across 12 STEM subjects.,complex
+"Develop a research methodology for a mixed-methods study on the psychological effects of social media algorithms on adolescent self-esteem, including IRB considerations, sampling strategy, and triangulation approach.",complex
+"Explain the mechanism of CRISPR-Cas9 gene editing at the molecular level, compare it to older techniques like zinc finger nucleases, and discuss the ethical implications for germline editing.",complex
+"Analyze the geopolitical implications of the Belt and Road Initiative across Southeast Asia using dependency theory, institutional theory, and realist IR frameworks.",complex
+"Design a capstone project for a data science bootcamp that integrates SQL, Python, machine learning, and data storytelling to solve a real-world public health problem.",complex
+"Build an annotated bibliography and literature synthesis on the neuroscience of decision-making under uncertainty, covering 15 peer-reviewed papers from the last decade.",complex
+"Develop a full lesson plan sequence for teaching statistical inference to high school students using real-world datasets, including scaffolded activities, misconception anticipation, and formative probes.",complex
+"Explain the mathematical intuition behind gradient descent, backpropagation, and the vanishing gradient problem for a student who understands calculus but has never studied ML.",complex
+"Analyze the causes, mechanisms, and global health implications of antibiotic resistance, and design a public health intervention framework to combat it at the community level.",complex
+Create a research proposal for studying the effectiveness of project-based learning (PBL) vs. direct instruction in improving critical thinking in middle school students.,complex
+"Develop a multi-disciplinary interdisciplinary course on climate change for liberal arts students that integrates environmental science, economics, ethics, and policy design.",complex
+"Design a mastery-based assessment system for a K-12 school district transitioning away from traditional grades, including competency frameworks, evidence portfolios, and parent communication strategies.",complex
+Write a full three-act screenplay outline for a psychological thriller about an AI system that gains sentience and manipulates its developers through manufactured emotional dependency.,complex
+"Develop a complete world-building document for a hard science fiction universe, including its physical laws, three distinct alien civilizations with unique evolutionary pressures, political systems, and a 500-year historical timeline.",complex
+"Write a literary analysis comparing the narrative unreliability in 'Gone Girl' by Gillian Flynn and 'The Murder of Roger Ackroyd' by Agatha Christie, examining how each author uses POV to manipulate reader trust.",complex
+"Design a tabletop RPG campaign with 10 sessions, including a branching narrative, morally ambiguous factions, hidden lore system, and encounter tables that adapt to player choices using a reputation system.",complex
+"Develop the first three chapters of a literary fiction novel about a Syrian refugee family's generational trauma, using a non-linear narrative structure, multiple POVs, and magic realism elements.",complex
+"Write a 2,000-word short story in the style of Ursula K. Le Guin that explores a society with no concept of individual identity, examining how collective consciousness shapes moral decision-making.",complex
+"Create a full music album concept including 12 song titles, lyrical themes, sonic palette description, and a narrative arc that tells the story of a city's rise and fall over 100 years.",complex
+"Develop a detailed character bible for an ensemble cast drama series about a family-run restaurant, including backstories, conflicting motivations, relationship dynamics, and character arcs across three seasons.",complex
+"Write a 1,500-word speculative fiction story where a historian in 2150 discovers that every major 21st-century political decision was made by an AI, and must decide whether to reveal the truth.",complex
+"Design a generative poetry system prompt that produces emotionally resonant poems in the style of Mary Oliver by encoding her use of nature imagery, direct address, and epiphanic endings.",complex
+"Create a full interactive narrative game design document for a branching visual novel about climate grief, with 6 distinct endings, a decision tree, and emotional arc tracking per player path.",complex
+"Develop a satirical stage play script (Act 1) that critiques surveillance capitalism using the structural conventions of a Shakespearean comedy, complete with mistaken identities and soliloquies.",complex
+Write the pilot episode script for an anthology TV series where each episode retells the same 24-hour period from the perspective of a different socioeconomic class in the same city.,complex
+"Design a collaborative worldbuilding framework for a fantasy setting rooted in West African mythology, including pantheon structures, magic systems tied to ancestral memory, and colonial-era conflict narrative.",complex
+"Develop a creative brief and 3,000-word narrative treatment for a documentary about the cultural impact of piracy on the global music industry from 1999 to 2015.",complex
+"Write a multi-voice epistolary novel opening (3 distinct voices, 500 words each) set during a near-future water scarcity crisis, with each narrator having a conflicting agenda.",complex
+"Create a detailed villain arc for a comic book series antagonist whose motivation is morally defensible, including origin story, philosophical manifesto, turning point moments, and final confrontation design.",complex
+"Design a 12-week periodized strength and hypertrophy training program for an intermediate lifter, including macrocycle structure, progressive overload schemes, deload weeks, RPE targets, and nutritional periodization to support performance.",complex
+"Create a 6-month personalized travel itinerary for a solo backpacker with a $15,000 budget visiting Southeast Asia and South America, including visa logistics, budget breakdowns by country, seasonal considerations, and safety risk assessments.",complex
+"Develop a comprehensive nutrition and meal planning protocol for an endurance athlete preparing for an Ironman triathlon, covering macronutrient periodization, race-day fueling strategy, gut training, and supplement stack justification.",complex
+"Design a financial independence roadmap for a 30-year-old with $40,000 in student debt and a $75,000 salary, including debt avalanche modeling, tax-advantaged investment sequencing, and a Monte Carlo simulation for retirement at 50.",complex
+"Build a personalized cognitive behavioral therapy (CBT) self-help workbook structure for managing social anxiety, including psychoeducation modules, thought record templates, exposure hierarchy design, and progress tracking.",complex
+"Create a comprehensive home renovation project plan for a full kitchen remodel on a $30,000 budget, including contractor vetting criteria, material sourcing strategy, permit requirements, and a 10-week Gantt chart.",complex
+"Develop a deeply personalized language learning roadmap to reach B2 Japanese proficiency in 18 months for an English speaker with no prior exposure, including SRS scheduling, immersion strategies, and milestone assessments.",complex
+"Design a 30-day mindfulness and productivity system integrating time-blocking, journaling, deep work protocols, and habit stacking, with weekly review templates and adaptation triggers.",complex
+"Build a detailed 10-day Japan travel itinerary for a couple interested in traditional culture, food, and hiking, including Shinkansen logistics, accommodation tiers, temple etiquette, and daily budget breakdowns.",complex
+"Create a comprehensive fertility wellness plan integrating nutrition, stress reduction, cycle tracking, and evidence-based supplement protocols for a couple trying to conceive naturally.",complex
+"Design a sustainable personal finance overhaul for a household of 4 earning $90,000/year in a high cost-of-living city, covering zero-based budgeting, emergency fund strategy, tax optimization, and a 5-year net worth projection.",complex
+"Develop a personalized curriculum for learning classical guitar from beginner to grade 5 ABRSM level, including technique progression, repertoire selection, practice structure, and performance anxiety management.",complex
+"Build a year-long personal development plan for a mid-career professional transitioning from engineering to product management, including skill gap analysis, certification roadmap, networking strategy, and 30/60/90-day plans for a new PM role.",complex
+"Create a full moving-abroad guide for a remote worker relocating from the US to Portugal, covering visa options (D8 vs NHR), tax implications, healthcare setup, housing market research, and cultural integration strategies.",complex
+"Design an allergen-free weekly meal plan for a family of 4 with one member having celiac disease, one with a tree nut allergy, and one following a vegan diet, including a consolidated shopping list and batch cooking schedule.",complex
+"Build a 90-day postpartum recovery plan integrating pelvic floor rehabilitation, gradual return to exercise, sleep optimization strategies, and mental health check-ins for a new mother.",complex
+"Develop a personalized anti-inflammatory lifestyle protocol for someone with early-stage rheumatoid arthritis, covering dietary adjustments, sleep hygiene, stress management, low-impact movement programming, and supplement evidence review.",complex
+"Design an end-to-end AI-powered customer support system for a telecom company handling 2 million monthly contacts, including intent classification architecture, escalation logic, agent assist tools, CSAT prediction models, and A/B testing framework for deflection optimization.",complex
+"Develop a comprehensive knowledge base taxonomy and content strategy for a SaaS product with 50 features, covering article templates, search optimization, version control workflows, and feedback loop integration with the engineering team.",complex
+"Build a voice of the customer (VoC) program from scratch for an e-commerce company, integrating NPS, CSAT, and CES surveys, social listening, support ticket mining, and a closed-loop action planning process.",complex
+"Design a multi-channel customer escalation framework for a fintech company that handles chargebacks, fraud disputes, and regulatory complaints, including SLA matrices, compliance documentation trails, and cross-functional resolution workflows.",complex
+"Develop a fully automated troubleshooting guide for a smart home IoT device with 20 common failure modes, including decision tree logic, self-diagnostic prompts, and escalation paths to human agents with pre-populated context.",complex
+"Create a customer health scoring model for a B2B SaaS company that predicts churn risk 90 days out using support ticket frequency, feature adoption signals, and NPS trends, with playbooks for each risk tier.",complex
+"Design a proactive customer communication strategy for a subscription box company, covering pre-shipment engagement, in-transit notifications, post-delivery feedback capture, and win-back sequences for cancellations.",complex
+"Build a multilingual customer support knowledge base for a global HR software company serving 25 countries, including localization workflow, terminology management, and quality assurance process for non-English content.",complex
+"Develop a root cause analysis (RCA) framework for a customer support team experiencing a 40% increase in ticket volume after a product update, including diagnostic methodology, cross-functional stakeholder alignment, and fix prioritization.",complex
+"Design a customer onboarding journey for a complex enterprise software product that reduces time-to-value from 90 days to 30 days, using guided walkthroughs, milestone-based check-ins, and proactive support triggers.",complex
+"Build a predictive support model that uses historical ticket data to pre-emptively contact customers likely to experience an issue within 7 days, detailing the ML pipeline, data requirements, and outreach personalization logic.",complex
+"Create a comprehensive agent training curriculum for a newly hired customer support cohort at a healthcare SaaS company, covering HIPAA compliance, de-escalation techniques, product knowledge certification, and quality rubric design.",complex
+"Develop a social media crisis response playbook for a retail brand facing viral backlash over a controversial product, including response templates, escalation trees, spokesperson guidelines, and post-crisis sentiment recovery strategy.",complex
+"Design a customer feedback loop system that automatically tags incoming support tickets by theme, routes critical product bugs to engineering in real-time, and generates weekly executive summaries with trend visualizations.",complex
+"Build a tiered SLA framework for a cloud infrastructure company with SMB, enterprise, and government clients, covering response time targets, breach notification protocols, credit calculation formulas, and QBR reporting templates.",complex

@@ -1,0 +1,19 @@
+
+
+services:
+  # Your FastAPI Application
+  # api:
+  #   build: .
+  #   ports:
+  #     - "8000:8000"
+  #   environment:
+  #     # This points to the local Redis container below
+  #     - REDIS_URI=redis://redis:6379 
+  #   depends_on:
+  #     - redis
+
+  # A local Redis server for testing
+  redis:
+    image: redis:alpine
+    ports:
+      - "6379:6379"
